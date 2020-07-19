@@ -1,7 +1,7 @@
 # Mean-App-Backend
 
-start the mongodb server on your machine and create `analytics` database<br>
-in analytics create this collections [unique_global_visitors, website_visits]
+Start the mongodb server on your machine and create `analytics` database.<br>
+In analytics create this collections [unique_global_visitors, website_visits]
 
 Open terminal in the cloned directory
 
@@ -11,19 +11,19 @@ Open terminal in the cloned directory
 dir structure :
 
 Mean-App-Backend<br>
-|----model<br>
-| |-> connection.js<br>
-| |-> index.js<br>
-| |-> models.js<br>
-|----node_modules<br>
-| |---(dependency_files)<br>
-|----.gitignore<br>
-|----index.js<br>
-|----package-lock.json<br>
-|----package.json<br>
-|----README.md<br>
-|----service_worker.js<br>
-|----service.js<br>
+|&emsp;----model<br>
+|&emsp;&emsp; |-> connection.js<br>
+|&emsp; &emsp;|-> index.js<br>
+|&emsp;&emsp; |-> models.js<br>
+|&emsp;----node_modules<br>
+|&emsp;&emsp; |---(dependency_files)<br>
+|&emsp;----.gitignore<br>
+|&emsp;----index.js<br>
+|&emsp;----package-lock.json<br>
+|&emsp;----package.json<br>
+|&emsp;----README.md<br>
+|&emsp;&emsp;----service_worker.js<br>
+|&emsp;----service.js<br>
 
 `npm start`
 
